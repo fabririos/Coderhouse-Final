@@ -1,0 +1,148 @@
+body {
+    background-image: linear-gradient(to top, #97F7F5 ,#a0f8b8, #c9f396, #eaf09f, #f7fac6);
+    height: 100%;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.navs {
+    font-family: 'Lobster Two', cursive;
+    color: #B3C648;
+    font-size: x-large;
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+    display: flex;
+}
+
+ li {
+     display: inline-block;
+     width: 25%;
+     font-size: 14px;
+     position: relative;
+ }
+
+ ul ul {
+     position: absolute;
+     display: none;
+ }
+
+ ul ul li {
+     display: block;
+     width: 100%;
+ }
+ ul li:hover ul {
+     display: block;
+ }
+
+ .logo {
+    margin-top: 5px;
+    height: 250px;
+    width: 250px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo1 {
+    font-family: 'Lobster Two', cursive;
+    color: #B3C648;
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+}
+
+.link1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.contacto {
+    display: flex;
+    margin-top: 300px;
+}
+
+
+#datos {
+    margin-top: 250px;
+}
+
+#sobreMi{
+    margin-top: 200px;
+}
+
+.servicios {
+    margin-top: 200px;
+}
+
+th {
+    border: #a7a874 solid 2px;
+    margin: 5px 5px 5px 5px;
+    font-family: 'Lobster Two', cursive;
+    color: #818f34;
+    font-size: large;
+    
+}
+
+
+td {
+    border: #787a5c solid 2px;
+    margin: 5px 5px 5px 5px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*usado en campos de CONTACTO*/
+.campos {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+/*NUEVO GRID EN CONTACTO*/
+.grid {
+    display: grid;   
+    grid-template-columns: 50px 50px;
+    grid-template-rows: auto;
+  }
+ 
+
+  /*SECCION CAROUSEL*/
+
+.container {
+    height: 720px;
+    width: 480px;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media (min-width: 375px) and (max-width: 450px) {
+    body {
+        width: auto;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+}
